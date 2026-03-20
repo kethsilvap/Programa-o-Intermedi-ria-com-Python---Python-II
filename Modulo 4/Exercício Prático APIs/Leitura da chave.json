@@ -1,0 +1,4 @@
+def load_api_key(path="key.json"):
+    with open(path, "r") as f:
+        line = f.read().strip()
+        return line.split("=")[1]
