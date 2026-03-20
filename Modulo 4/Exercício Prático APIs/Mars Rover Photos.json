@@ -1,5 +1,0 @@
-url_photos = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos"
-
-camera_filter = ["NAVCAM", "FHAZ", "RHAZ"]
-
-page = 1
