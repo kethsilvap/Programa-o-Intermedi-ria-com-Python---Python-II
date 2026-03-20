@@ -1,0 +1,2 @@
+print("Limite total:", response.headers.get("X-RateLimit-Limit"))
+print("Restante:", response.headers.get("X-RateLimit-Remaining"))
